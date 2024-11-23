@@ -1,5 +1,5 @@
 {
-  "name": "@paintface/alpine-match-height",
+  "name": "@paintface/alpine-match-heights",
   "version": "1.0.0",
   "description": "Alpine.js plugin to match heights of elements",
   "main": "dist/alpine-match-heights.min.js",
@@ -26,10 +26,6 @@
     "@rollup/plugin-terser": "^0.4.0",
     "eslint": "^9.15.0",
     "rollup": "^3.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paintface/alpine-match-height.git"
   },
   "bugs": {
     "url": "https://github.com/paintface/alpine-match-height/issues"
