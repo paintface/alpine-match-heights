@@ -1,5 +1,5 @@
 
-# @paintface/alpine-match-heights
+# @paintface_danny/alpine-match-heights
 
 **Alpine.js plugin to match heights of grouped elements.**
 
@@ -15,13 +15,13 @@ Based on the vanilla JavaScript solution from [@joshdonnell](https://github.com/
 Install the package:
 
 ```bash
-npm install @paintface/alpine-match-heights
+npm install @paintface_danny/alpine-match-heights
 ```
 
 Then, import and register the plugin in your JavaScript:
 
 ```javascript
-import matchHeights from '@paintface/alpine-match-heights';
+import matchHeights from '@paintface_danny/alpine-match-heights';
 
 document.addEventListener('alpine:init', () => {
     Alpine.plugin(matchHeights);
