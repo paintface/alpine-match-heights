@@ -21,10 +21,10 @@ npm install @paintface/alpine-match-heights
 Then, import and register the plugin in your JavaScript:
 
 ```javascript
-import matchHeight from '@paintface/alpine-match-heights';
+import matchHeights from '@paintface/alpine-match-heights';
 
 document.addEventListener('alpine:init', () => {
-    Alpine.plugin(matchHeight);
+    Alpine.plugin(matchHeights);
 });
 ```
 
