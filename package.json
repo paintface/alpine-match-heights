@@ -1,0 +1,38 @@
+{
+  "name": "@paintface/alpine-match-height",
+  "version": "1.0.0",
+  "description": "Alpine.js plugin to match heights of elements",
+  "main": "dist/alpine-match-heights.min.js",
+  "module": "src/plugin.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist/*",
+    "README.md",
+    "package.json"
+  ],
+  "keywords": [
+    "alpine",
+    "alpinejs",
+    "plugin",
+    "match-height",
+    "equal-height"
+  ],
+  "author": "Danny Painter",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.0",
+    "eslint": "^9.15.0",
+    "rollup": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paintface/alpine-match-height.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paintface/alpine-match-height/issues"
+  },
+  "homepage": "https://github.com/paintface/alpine-match-height#readme"
+}
