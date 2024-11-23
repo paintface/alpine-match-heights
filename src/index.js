@@ -1,4 +1,4 @@
-export default function matchHeight(Alpine) {
+export default function (Alpine) {
     const groups = new Map();
 
     const mutationObserver = new MutationObserver(
